@@ -1,7 +1,7 @@
 //define functions here
 
 function getIt() {
-  $('p').on("clickevent"), function() {});
+  $('p').on('click', function() {});
 }
 
 $(document).ready(function(){
