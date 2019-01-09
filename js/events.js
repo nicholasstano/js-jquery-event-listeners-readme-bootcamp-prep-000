@@ -20,8 +20,8 @@ function submitIt() {
 }
 
 function pressIt() {
-  $(document).on('keypress', function(g) {
-    if (key.which == 13) {
+  $(#typing).on('keypress', function(g) {
+    if (key.which === 71) {
       alert('g was pressed')
     }
   })
