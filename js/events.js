@@ -19,6 +19,14 @@ function submitIt() {
   });
 }
 
+function pressIt() {
+  $(document).on('keypress', function(key) {
+    if (key.which == 13) {
+      alert('g was pressed')
+    }
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
