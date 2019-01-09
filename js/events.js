@@ -13,6 +13,12 @@ function frameIt() {
   });
 }
 
+function submitIt() {
+  $('form').on('submit', function() {
+    if($(""))
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
